@@ -2,23 +2,15 @@
 
 ### See video, "The Wild North Release Trailer [Edit 1]" for a demo
 
-#############################################################################
-___ _  _ ____    _ _ _ _ _    ___     _  _ ____ ____ ___ _  _ 
- |  |__| |___    | | | | |    |  \    |\ | |  | |__/  |  |__| 
- |  |  | |___    |_|_| | |___ |__/    | \| |__| |  \  |  |  | 
-                                                              
-
 Welcome to The Wild North! An Elemental Games production produced by Andrew, 
 Daniel, Enrico, Feisal and, Joaquin in Liconti's ICS4U Class. Continue 
 reading for controls, tips, tricks, and more!
 
- 
+# The Wild North
 Version 1.0.0 as of November 3, 2017
-#############################################################################
-____ ____ ____ ___ _  _ ____ ____ ____ 
-|___ |___ |__|  |  |  | |__/ |___ [__  
-|    |___ |  |  |  |__| |  \ |___ ___] 
-                                       
+Built with pygame
+
+## Features
 
 - The program has a help menu, where it tells you what kind of enemies you will
   encounter while playing the game.
@@ -31,25 +23,15 @@ ____ ____ ____ ___ _  _ ____ ____ ____
 - You will use the arrow keys to move your character in the game.
 
 - The game is easy and replayable.
-#############################################################################
-___  ____ ____ ___  _    ____ _  _              
-|__] |__/ |  | |__] |    |___ |\/|              
-|    |  \ |__| |__] |___ |___ |  |              
-                                                
-___  ____ ____ ____ ____ _ ___  ___ _ ____ _  _ 
-|  \ |___ [__  |    |__/ | |__]  |  | |  | |\ | 
-|__/ |___ ___] |___ |  \ | |     |  | |__| | \| 
-                                                
+- 
+## Problem Description                                                
 
 For this assignment, we had to create a game in a group setting. Working with
 a small team of five, we had to make a full Object Oriented game with full 
 art. We broke into smaller teams to ensure that each part of the project was
 done with care and with close attention to detail.
-#############################################################################
-____ ____ ____ _  _ _ ____ ____ _  _ ____ _  _ ___ ____ 
-|__/ |___ |  | |  | | |__/ |___ |\/| |___ |\ |  |  [__  
-|  \ |___ |_\| |__| | |  \ |___ |  | |___ | \|  |  ___] 
-                                                        
+
+## Requirements                                                        
 
 The Wild North is coded in Python version 3.4.4 using the Pydev interpreter 
 3.0 and Pygame 1.9.2
@@ -58,11 +40,8 @@ To play the game you will require a keyboard with arrow keys and a mouse.
 
 NOTE: THE PROGRAM WILL AUTOMATICALLY ASSUME THAT PYGAME IS INSTALLED ON THE 
       USER'S COMPUTER AND THE USER WILL HAVE CONTROLS AVAILABLE TO THEM!
-#############################################################################
-____ ____ _  _ ___ ____ ____ _    ____ 
-|    |  | |\ |  |  |__/ |  | |    [__  
-|___ |__| | \|  |  |  \ |__| |___ ___] 
-                                       
+
+## Controls
 --- Menu ---
 Left Mouse Button --> Select
 Escape Button --> Back
@@ -71,20 +50,14 @@ Escape Button --> Back
 Left Arrow --> Move Left
 Right Arrow --> Move Right
 Up Arrow --> Jump
-#############################################################################
-____ ____ ___ ___ _ _  _ ____    ____ ___ ____ ____ ___ ____ ___  
-| __ |___  |   |  | |\ | | __    [__   |  |__| |__/  |  |___ |  \ 
-|__] |___  |   |  | | \| |__]    ___]  |  |  | |  \  |  |___ |__/ 
-                                                                  
+
+## Getting Started                                                                  
 
 After you download the main game's ZIP file, you can open up Eclipse or IDLE 
 and make menu selection. If you're not interested in credits or help, then 
 just click Play and get going!
-#############################################################################
-___ _ ___  ____    _  _ .    ___ ____ _ ____ _  _ ____ 
- |  | |__] [__     |\ | '     |  |__/ | |    |_/  [__  
- |  | |    ___]    | \|       |  |  \ | |___ | \_ ___] 
-                                                       
+
+## Tips and Tricks                                                       
 
 - The Beaver will damage you if you stand over it while it comes up from the 
   ground
@@ -98,35 +71,22 @@ ___ _ ___  ____    _  _ .    ___ ____ _ ____ _  _ ____
 - The Moose is indestructible while running.
 
 - Use the direction keys to your advantage while maneuvering in the air
-#############################################################################
-____ ____ ____ ___ ____ _ ____ ___ _ ____ _  _ ____ 
-|__/ |___ [__   |  |__/ | |     |  | |  | |\ | [__  
-|  \ |___ ___]  |  |  \ | |___  |  | |__| | \| ___] 
-                                                    
+
+## Restrictions                                                   
 
 The Team did have some restrictions that may have limited the look or 
 response of the game. For example, we could only use Python, Pygame, Pydev 
 and the resources that came with them. We weren't allowed to ship the game 
 with any external libraries or programs. Also, the game must be runable in 
 IDLE to get a proper mark.
-#############################################################################
-_  _ _  _ ____ _ _ _ _  _    ____ ____ ____ ____ ____ ____ 
-|_/  |\ | |  | | | | |\ |    |___ |__/ |__/ |  | |__/ [__  
-| \_ | \| |__| |_|_| | \|    |___ |  \ |  \ |__| |  \ ___] 
-                                                           
+
+## Known Errors                                                           
 
 There is one known error: The highscore is only saved in the instance of the
 program that it was achieved in, meaning that it does not save between
 closing one version and opening another.
-#############################################################################
-_ _  _ ___  _    ____ _  _ ____ _  _ ___ ____ ___ _ ____ _  _    
-| |\/| |__] |    |___ |\/| |___ |\ |  |  |__|  |  | |  | |\ |    
-| |  | |    |___ |___ |  | |___ | \|  |  |  |  |  | |__| | \|    
-                                                                 
-___  ____ ___ ____ _ _    ____                                   
-|  \ |___  |  |__| | |    [__                                    
-|__/ |___  |  |  | | |___ ___]                                   
-                                         
+
+## Implementation Details                                         
 
 First, ensure that you have Python and the latest compatible version of 
 Pygame installed on your computer. Then, open your IDE and load all game 
@@ -136,11 +96,9 @@ you do then is use the appropriate keys for the screen that you are on and
 enjoy. If you wish to stop playing (why tho?) then simply die (if you are 
 already in the main game), and click quit. Or you can click the 'x' in the 
 top right corner of the screen.
-#############################################################################
-____ ___  ___  _ ___ _ ____ _  _ ____ _       ____ _ _    ____ ____ 
-|__| |  \ |  \ |  |  | |  | |\ | |__| |       |___ | |    |___ [__  
-|  | |__/ |__/ |  |  | |__| | \| |  | |___    |    | |___ |___ ___] 
-                                                                    
+
+## Additional Files
+
 === In Folder: Version 20 ===
 - base_charachter.py
 - collision.py
