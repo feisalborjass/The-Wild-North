@@ -23,7 +23,7 @@ Built with pygame
 - You will use the arrow keys to move your character in the game.
 
 - The game is easy and replayable.
-- 
+
 ## Problem Description                                                
 
 For this assignment, we had to create a game in a group setting. Working with
